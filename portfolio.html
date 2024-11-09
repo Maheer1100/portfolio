@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>naqvi potfolio</title>
+  <style>
+
+    *{
+      margin: 39 0;
+      padding: 30 0;
+    }
+    body{
+      background-color: rgb(0, 0, 33);
+      color: white;
+      font-family: 'poppins', sans-serif;
+    }
+
+    nav{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+      background-color: rgb(18, 18, 62);
+    }
+    nav ul{
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      list-style: none;
+      margin: 0 20px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+    nav ul li a:hover {
+      color: rgb(188, 188, 252);
+      font-size: 1.04rem;
+    }
+
+    .left{
+      font-size: 1.2rem;
+
+
+    }
+    .firstsection{
+      display: flex;
+      justify-content: space-around;
+      margin: 30px 0;
+ 
+      .firstsection > div{
+        width: 30px 0;
+        margin: 30px;
+      }
+
+    }
+    .leftsection{
+      font-size: 2rem;
+      margin: 30px 0;
+
+    }
+
+
+    .rightsection img {
+      width: 88% ;
+      margin: 50px 0;
+    }
+      
+.purple{
+         color: blueviolet;
+
+      }
+      #element{
+        color: blueviolet;
+      }
+      text-gray{
+        color: gray;
+      }
+.secondSection{
+  max-width: 80vm;
+  margin: auto;
+}
+
+.secondSection.box{
+  background-color: white;
+  width: 80 0vw;
+  height: 20px;
+  margin: 56px 0;
+  display: flex;
+}
+.secondSection.vertical{
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 100px;
+
+}
+.work-experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experience {
+  width: 300px;
+  padding: 20px;
+  margin-bottom: 100px; /* Gap of 100px between experiences */
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 5px 0;
+  color: #555;
+}
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+       <div class="left">Naqvi potfolio</div>
+       <div class="right">
+        <ul> 
+         <li><a href="/"> HOME</a></li>
+         <li><a href="/">ABOUT</a> </li>
+          <li><a href="/">SERVICE</a></li>
+          <li><a href="/">PROJECT</a></li>
+         <li> <a href="/">CONTACT ME</a></li>
+
+        </ul>
+       </div>
+
+    </nav>
+  </header>
+  <main>
+    <section class="firstsection">
+    <div class="leftsection">
+      Hi, my name is <span class="purple"> Maheer</span>
+      <div>And i'm website passionate</div>
+      <div>developer</div><span id="element"></span>
+    </div>
+    <div class="rightsection">
+      
+  <img src="c:\Users\syed maheer naqvi\OneDrive\Desktop\download.jpeg" alt=""> 
+ 
+  
+  
+    </div>
+
+    </section>
+    <hr>
+    <section class="secondSection"> </section>
+    <span class="text-gray">what i have done work so far</span>
+    <h3>Work Experence</h3>
+
+    <div class="box"></div>
+    
+    
+  </main>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i> Web Developer', '&amp; a Graphic designer.'],
+      typeSpeed: 50,
+    });
+  </script>
+  <div class="work-experience">
+    <div class="experience">
+      <h2>Internship 1</h2>
+      <p><strong>Company:</strong> Digitalempowermentwork</p>
+      <p><strong>Role:</strong> Front-End Developer Intern</p>
+      <p><strong>Duration:</strong> september 2023 - october 2023</p>
+    </div>
+    
+    <div class="experience">
+      <h2>Internship 2</h2>
+      <p><strong>Company:</strong>Prodigy infotech </p>
+      <p><strong>Role:</strong> Frontend  Developer Intern</p>
+      <p><strong>Duration:</strong>  2023 - November 2023</p>
+    </div>
+  </div>
+
+</body>
+</html>
